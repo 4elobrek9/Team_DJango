@@ -1,4 +1,4 @@
-# TEAM_DJANGO-1 Project
+# TEAM_DJANGO Project
 
 This project is a full-fledged Django application with two sub-applications: a blog and a shop. It includes a CAPTCHA entry point for bot verification and a transition page.
 
@@ -32,15 +32,6 @@ This project is a full-fledged Django application with two sub-applications: a b
 **Create and Activate Virtual Environment with Python 3.11:**
 After installing Python 3.11, create a new virtual environment explicitly using `python3.11`:
 ```bash
-# Delete the old project directory to start fresh
-rmdir /s /q TEAM_DJANGO-1  # On Windows
-# rm -rf TEAM_DJANGO-1    # On macOS/Linux
-
-# Re-run the setup_project.py script (you just did this, so it will recreate the directory)
-python C:\4chan\.GITHUB\Team_DJango\setup_project.py
-
-# Navigate into the newly created project directory
-cd TEAM_DJANGO-1
 
 # Create a virtual environment using Python 3.11
 python3.11 -m venv venv
